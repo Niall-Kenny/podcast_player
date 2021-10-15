@@ -13,9 +13,9 @@ final KPodcastData = {
   }
 };
 
-class _PodcastShow {
+class PodcastShow {
   final Map _data;
-  const _PodcastShow(Map<String, dynamic> show) : _data = show;
+  const PodcastShow(Map<String, dynamic> show) : _data = show;
 
   title() {
     return _getProperty("title");
@@ -43,15 +43,15 @@ class _PodcastShow {
 }
 
 /// text scale factor clamped from 1 - 1.5
-class _HomePage extends StatefulWidget {
-  final _PodcastShow show;
-  const _HomePage({required this.show, Key? key}) : super(key: key);
+class HomePage extends StatefulWidget {
+  final PodcastShow show;
+  const HomePage({required this.show, Key? key}) : super(key: key);
 
   @override
-  State<_HomePage> createState() => __HomePageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class __HomePageState extends State<_HomePage> {
+class _HomePageState extends State<HomePage> {
   bool _following = false;
 
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fountain_tech_test/fount_test_app_bar.dart';
+import 'package:fountain_tech_test/fount_test_app_bar.dart' as FTAB;
 
 class SeeAll extends StatelessWidget {
   /// [emptyState] will display when [itemCount] == 0
@@ -19,7 +19,7 @@ class SeeAll extends StatelessWidget {
   Widget build(BuildContext context) {
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(
-        textScaleFactor: createTextScaleFactor(context),
+        textScaleFactor: FTAB.createTextScaleFactor(context),
       ),
       child: Scaffold(
         body: SafeArea(

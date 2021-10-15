@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fountain_tech_test/data/podcast_index_dot_org.dart';
 import 'package:fountain_tech_test/domain/account.dart';
 import 'package:fountain_tech_test/domain/audio_player.dart';
-import 'package:fountain_tech_test/fount_test_app_bar.dart';
+import 'package:fountain_tech_test/fount_test_app_bar.dart' as FTAB;
 import 'package:fountain_tech_test/main.dart';
 import 'package:fountain_tech_test/view/components/tiles/podcast_episode_list_tile.dart';
 import 'package:palette_generator/palette_generator.dart';
@@ -41,7 +41,7 @@ class _PodcastShowPageState extends State<PodcastShowPage> {
   Widget build(BuildContext context) {
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(
-        textScaleFactor: createTextScaleFactor(context),
+        textScaleFactor: FTAB.createTextScaleFactor(context),
       ),
       child: Scaffold(
         body: SafeArea(

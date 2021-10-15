@@ -12,7 +12,7 @@ import 'package:fountain_tech_test/view/components/playlist_bottom_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fountain_tech_test/data/podcast_index_dot_org.dart';
-import 'package:fountain_tech_test/fount_test_app_bar.dart';
+import 'package:fountain_tech_test/fount_test_app_bar.dart' as FTAB;
 import 'package:just_audio/just_audio.dart' as JA;
 import 'package:rxdart/rxdart.dart';
 import 'package:rxdart/subjects.dart';
@@ -33,21 +33,21 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // theme: ThemeData.dark(),
-      // home: HomePage(
-      //   show: PodcastShow(KPodcastData),
+      theme: ThemeData.dark(),
+      home: FTAB.HomePage(
+        show: FTAB.PodcastShow(FTAB.KPodcastData),
+      ),
+      // theme: ThemeData(
+      //   brightness: Brightness.light,
       // ),
-      theme: ThemeData(
-        brightness: Brightness.light,
-      ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-      ),
-      home: LandingPage(
-        audioPlayer: AudioPlayer(
-          audioPlayer: JA.AudioPlayer(),
-        ),
-      ),
+      // darkTheme: ThemeData(
+      //   brightness: Brightness.dark,
+      // ),
+      // home: LandingPage(
+      //   audioPlayer: AudioPlayer(
+      //     audioPlayer: JA.AudioPlayer(),
+      //   ),
+      // ),
     );
   }
 }
@@ -108,7 +108,7 @@ class LandingPageState extends State<LandingPage> {
   Widget build(BuildContext context) {
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(
-        textScaleFactor: createTextScaleFactor(context),
+        textScaleFactor: FTAB.createTextScaleFactor(context),
       ),
       child: Scaffold(
         floatingActionButton: StreamBuilder<int>(

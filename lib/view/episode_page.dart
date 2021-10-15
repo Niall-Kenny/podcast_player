@@ -3,7 +3,7 @@ import 'package:fountain_tech_test/data/podcast_index_dot_org.dart';
 import 'package:fountain_tech_test/domain/account.dart';
 import 'package:fountain_tech_test/domain/audio_player.dart';
 import 'package:fountain_tech_test/domain/playlist.dart';
-import 'package:fountain_tech_test/fount_test_app_bar.dart';
+import 'package:fountain_tech_test/fount_test_app_bar.dart' as FTAB;
 import 'dart:math' as math;
 
 import 'package:fountain_tech_test/main.dart';
@@ -32,7 +32,7 @@ class EpisodePage extends StatelessWidget {
     final episodeImageheight = MediaQuery.of(context).size.height * .4;
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(
-        textScaleFactor: createTextScaleFactor(context),
+        textScaleFactor: FTAB.createTextScaleFactor(context),
       ),
       child: Scaffold(
         body: SafeArea(
