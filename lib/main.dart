@@ -331,9 +331,6 @@ class LandingPageState extends State<LandingPage> {
                     ),
                   ),
                 ),
-                const SizedBox(
-                  height: 50,
-                ),
                 const Spacer(),
               ],
             ),
