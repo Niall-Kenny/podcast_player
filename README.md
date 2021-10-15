@@ -27,6 +27,8 @@ Generally I've found that many apps don't account for TCF, if they do, I've foun
 
 ## Podcast App
 
+**To Run:** comment lines 36-36 in and uncomment lines 40-50 in `lib/main.dart` then run `flutter run`
+
 The podcast app is an **in memory** audio application that provides the basic features such as:
 - search
 - audio streaming
