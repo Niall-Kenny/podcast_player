@@ -43,15 +43,15 @@ class _PodcastShow {
 }
 
 /// text scale factor clamped from 1 - 1.5
-class HomePage extends StatefulWidget {
+class _HomePage extends StatefulWidget {
   final _PodcastShow show;
-  const HomePage({required this.show, Key? key}) : super(key: key);
+  const _HomePage({required this.show, Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<_HomePage> createState() => __HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class __HomePageState extends State<_HomePage> {
   bool _following = false;
 
   @override
