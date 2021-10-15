@@ -8,7 +8,7 @@ import 'dart:math' as math;
 
 import 'package:fountain_tech_test/main.dart';
 import 'package:fountain_tech_test/view/playlists_page.dart';
-import 'package:fountain_tech_test/view/utils/playlist_bottom_sheet.dart';
+import 'package:fountain_tech_test/view/components/playlist_bottom_sheet.dart';
 
 class EpisodePage extends StatelessWidget {
   final PodcastEpisode episode;

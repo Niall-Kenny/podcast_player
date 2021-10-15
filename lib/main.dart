@@ -9,7 +9,7 @@ import 'package:fountain_tech_test/view/discover_page.dart';
 import 'package:fountain_tech_test/view/home_page.dart';
 import 'package:fountain_tech_test/view/episode_page.dart';
 import 'package:fountain_tech_test/view/playlists_page.dart';
-import 'package:fountain_tech_test/view/utils/playlist_bottom_sheet.dart';
+import 'package:fountain_tech_test/view/components/playlist_bottom_sheet.dart';
 import 'package:palette_generator/palette_generator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:fountain_tech_test/domain/audio_player.dart';
-import 'package:fountain_tech_test/view/utils/tiles/podcasts_show_list_tile.dart';
+import 'package:fountain_tech_test/view/components/tiles/podcasts_show_list_tile.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:flutter/material.dart';
 import 'package:fountain_tech_test/data/podcast_index_dot_org.dart';
