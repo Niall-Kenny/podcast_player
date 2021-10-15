@@ -4,7 +4,7 @@ run `flutter run`
 
 ## App Bar
 
-Screen sizes with different text scale factors (TCF):
+Screen sizes with different text scale factor (TCF):
 
 | iphone 13 with TCF at 1.0x | iphone 18 with TCF at 1.0x |
 | ----------- | ----------- |
@@ -27,7 +27,7 @@ Generally I've found that many apps don't account for TCF, if they do, I've foun
 
 ## Podcast App
 
-**To Run:** comment lines 36-36 in and uncomment lines 40-50 in `lib/main.dart` then run `flutter run`
+**To Run:** comment lines 36-39 in and uncomment lines 40-50 in `lib/main.dart` then run `flutter run`
 
 The podcast app is an **in memory** audio application that provides the basic features such as:
 - search
