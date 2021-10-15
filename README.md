@@ -51,6 +51,14 @@ The app supports both light and dark mode with a TCF range of 1.0x - 1.5x:
 |<img width="472" alt="Screenshot 2021-10-15 at 19 11 04" src="https://user-images.githubusercontent.com/45692434/137534248-0ee83897-e3c0-4f99-82df-b44c26812f86.png">|<img width="516" alt="Screenshot 2021-10-15 at 19 19 16" src="https://user-images.githubusercontent.com/45692434/137534314-9350dc39-57ca-4151-b8a5-04f5aae00f93.png">|
 
 
+#### Images
+||||
+| ----------- | ----------- | ----------- |
+|<img width="516" alt="Screenshot 2021-10-15 at 19 28 32" src="https://user-images.githubusercontent.com/45692434/137535612-68f128ee-0abf-4daa-a6f3-0c024902d1e9.png">|<img width="516" alt="Screenshot 2021-10-15 at 19 27 07" src="https://user-images.githubusercontent.com/45692434/137535625-9581c4e4-86ce-4c1c-bb2a-dc1d32b209a7.png">|<img width="472" alt="Screenshot 2021-10-15 at 19 24 38" src="https://user-images.githubusercontent.com/45692434/137535643-b46385a0-9c81-43cf-a9e4-a20af4bba1c3.png">|<img width="472" alt="Screenshot 2021-10-15 at 19 24 38" src="https://user-images.githubusercontent.com/45692434/137535643-b46385a0-9c81-43cf-a9e4-a20af4bba1c3.png">|<img width="516" alt="Screenshot 2021-10-15 at 19 25 41" src="https://user-images.githubusercontent.com/45692434/137535682-b47399bf-dba7-4149-903d-1da6bfbe4e0a.png">|<img width="516" alt="Screenshot 2021-10-15 at 19 26 33" src="https://user-images.githubusercontent.com/45692434/137535705-3a35c298-d360-4007-9e53-7b20f41a53d1.png">|
+<img width="516" alt="Screenshot 2021-10-15 at 19 28 13" src="https://user-images.githubusercontent.com/45692434/137535716-8b8cc202-db3f-4270-afff-e5e30d4d9a1a.png">|<img width="516" alt="Screenshot 2021-10-15 at 19 35 21" src="https://user-images.githubusercontent.com/45692434/137536205-2fc0d433-690b-4399-8c95-4e319f667536.png">|<img width="516" alt="Screenshot 2021-10-15 at 19 35 37" src="https://user-images.githubusercontent.com/45692434/137536242-07480a44-8db8-4748-8a79-8142dd5d42fe.png">|
+
+
+
 
 
 
