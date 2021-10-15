@@ -122,7 +122,7 @@ class HomePage extends StatelessWidget {
                             title: "Recently played",
                             itemCount: listeningHistory.length,
                             itemBuilder: (context, index) =>
-                                PodcastListItemTile(
+                                PodcastEpisodeListItemTile(
                               episode:
                                   listeningHistory.reversed.toList()[index],
                               audioPlayer: audioPlayer,

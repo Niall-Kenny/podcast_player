@@ -153,7 +153,7 @@ class PlaylistListTile extends StatelessWidget {
             ],
           ),
           itemCount: playlist.episodes.length,
-          itemBuilder: (context, index) => PodcastListItemTile(
+          itemBuilder: (context, index) => PodcastEpisodeListItemTile(
             episode: playlist.episodes[index],
             audioPlayer: audioPlayer,
             account: account,

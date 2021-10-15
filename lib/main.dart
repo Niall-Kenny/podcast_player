@@ -454,11 +454,11 @@ class _AccountPage extends StatelessWidget {
   }
 }
 
-class PodcastListItemTile extends StatelessWidget {
+class PodcastEpisodeListItemTile extends StatelessWidget {
   final PodcastEpisode episode;
   final AudioPlayer audioPlayer;
   final Account account;
-  const PodcastListItemTile({
+  const PodcastEpisodeListItemTile({
     required this.episode,
     required this.audioPlayer,
     required this.account,

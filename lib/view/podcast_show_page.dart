@@ -156,7 +156,7 @@ class _PodcastShowPageState extends State<PodcastShowPage> {
                                         const Divider(),
                                     itemBuilder: (context, index) {
                                       final episode = snapshot.data![index];
-                                      return PodcastListItemTile(
+                                      return PodcastEpisodeListItemTile(
                                         episode: episode,
                                         audioPlayer: widget.audioPlayer,
                                         account: widget.account,
