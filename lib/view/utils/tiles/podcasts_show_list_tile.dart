@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fountain_tech_test/data/podcast_index_dot_org.dart';
 import 'package:fountain_tech_test/domain/account.dart';
 import 'package:fountain_tech_test/main.dart';
+import 'package:fountain_tech_test/view/podcast_show_page.dart';
 
 class PodcastShowListTile extends StatelessWidget {
   const PodcastShowListTile({
