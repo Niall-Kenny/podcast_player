@@ -4,6 +4,7 @@ import 'package:fountain_tech_test/data/podcast_index_dot_org.dart';
 import 'package:fountain_tech_test/domain/account.dart';
 import 'package:fountain_tech_test/fount_test_app_bar.dart';
 import 'package:fountain_tech_test/main.dart';
+import 'package:fountain_tech_test/view/utils/tiles/podcast_episode_list_tile.dart';
 import 'package:palette_generator/palette_generator.dart';
 
 class PodcastShowPage extends StatefulWidget {
