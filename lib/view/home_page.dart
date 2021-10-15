@@ -3,6 +3,7 @@ import 'package:fountain_tech_test/data/podcast_index_dot_org.dart';
 import 'package:fountain_tech_test/domain/account.dart';
 import 'package:fountain_tech_test/main.dart';
 import 'package:fountain_tech_test/view/episode_page.dart';
+import 'package:fountain_tech_test/view/podcast_show_page.dart';
 import 'package:fountain_tech_test/view/utils/tiles/podcasts_show_list_tile.dart';
 
 class HomePage extends StatelessWidget {
