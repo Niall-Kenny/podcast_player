@@ -1,6 +1,4 @@
 import 'dart:async';
-import 'dart:math';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/rendering.dart';
 import 'package:fountain_tech_test/domain/account.dart';
 import 'package:fountain_tech_test/domain/audio_player.dart';
@@ -11,7 +9,6 @@ import 'package:fountain_tech_test/view/home_page.dart';
 import 'package:fountain_tech_test/view/episode_page.dart';
 import 'package:fountain_tech_test/view/playlists_page.dart';
 import 'package:fountain_tech_test/view/components/playlist_bottom_sheet.dart';
-import 'package:palette_generator/palette_generator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fountain_tech_test/data/podcast_index_dot_org.dart';
@@ -19,8 +16,6 @@ import 'package:fountain_tech_test/fount_test_app_bar.dart';
 import 'package:just_audio/just_audio.dart' as JA;
 import 'package:rxdart/rxdart.dart';
 import 'package:rxdart/subjects.dart';
-import 'package:rxdart/transformers.dart';
-import 'dart:ui' as ui;
 
 class PlatformBrightness {
   static isLightMode(BuildContext context) {
@@ -125,7 +120,7 @@ class LandingPageState extends State<LandingPage> {
               if (isPlaylistPage) {
                 return Padding(
                   padding: EdgeInsets.only(
-                      bottom: isShowingPodcastPlayBar ? 40.0 : 0),
+                      bottom: isShowingPodcastPlayBar ? 50.0 : 0),
                   child: FloatingActionButton(
                       backgroundColor: Colors.blue,
                       child: const Icon(Icons.add),
@@ -209,7 +204,9 @@ class LandingPageState extends State<LandingPage> {
             );
           },
           child: Container(
-            color: Colors.grey[900],
+            color: PlatformBrightness.isLightMode(context)
+                ? Colors.grey[300]
+                : Colors.grey[900],
             padding: const EdgeInsets.symmetric(vertical: 5),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -224,10 +221,10 @@ class LandingPageState extends State<LandingPage> {
                         tag: "podcast_image" + episode.id(),
                         child: Image.network(
                           episode.image(),
-                          height: 40,
-                          width: 40,
+                          height: 50,
+                          width: 50,
                           errorBuilder: (_, __, ___) => const SizedBox(
-                            height: 40,
+                            height: 50,
                           ),
                         ),
                       ),
@@ -235,8 +232,11 @@ class LandingPageState extends State<LandingPage> {
                         width: 5,
                       ),
                       Flexible(
-                        child: Text(episode.title(),
-                            maxLines: 1, overflow: TextOverflow.ellipsis),
+                        child: Text(
+                          episode.title(),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
                       ),
                     ],
                   ),
